@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'particle-filter'
+package_name = 'particle_filter'
 
 setup(
     name=package_name,
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'filter-simulation = particle-filter.filter-simulation:main'
+            'filter_simulation = particle_filter.filter_simulation:main'
         ],
     },
 )

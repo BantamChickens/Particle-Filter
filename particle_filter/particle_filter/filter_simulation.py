@@ -1,5 +1,5 @@
 def main():
-    print('Hi from particle-filter.')
+    print('Hi from particle_filter.')
 
 
 if __name__ == '__main__':
