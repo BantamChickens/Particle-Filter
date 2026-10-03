@@ -14,4 +14,4 @@ Then navigate to where the 'Particle-Filter' repo is stored. For example, if sto
 ```
 cd ~/ros2_ws/Particle-Filter
 ```
-Then run the node using ros2 run <package name> <node name>.
+Then run the node using ros2 run [insert package name here] [insert node name here].
