@@ -8,7 +8,7 @@ class SendMessageNode(Node):
         """Initializes the SendMessageNode. No inputs."""
         super().__init__('send_message_node')
         # Create a timer that fires ten times per second
-        timer_period = 0.1
+        timer_period = 15.0  # seconds
         self.timer = self.create_timer(timer_period, self.run_loop)
 
     def run_loop(self):

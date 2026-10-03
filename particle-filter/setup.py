@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'test_nodes'
+package_name = 'particle-filter'
 
 setup(
     name=package_name,
@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'send_message = test_nodes.send_message:main',
-            'receive_message = test_nodes.receive_message:main'
+            'filter-simulation = particle-filter.filter-simulation:main'
         ],
     },
 )
